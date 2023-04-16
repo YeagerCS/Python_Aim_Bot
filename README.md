@@ -10,4 +10,10 @@ It works by taking a screenshot of the region in which your game is open and the
 ## How to use it
 Additionally to the script.py file, there is the regionCalc.py file. The regionCalc file helps you find out the screenshot region for your game. After you started the regionCalc program, you need to go to your window in which the game is at and then clicking 'a' in the topleft corner, and 'b' in the topright corner. With those two coordinates, the program will calculate the region and will print out the output of the region. This output is to be stored in the ```screenshotRegion``` variable. After doing that, the program should work.
 
-If you want to try it at another website, instead of https://aim400kg.com/game/1, you just have to locate the color of the element that it is clicking. You can do this with the python shell by using the ``` pyautogui.displayMousePosition ```.
+If you want to try it at another website, instead of https://aim400kg.com/game/1, you just have to locate the color of the element that it is clicking. You can do this with the python shell by using the ``` pyautogui.displayMousePosition() ``` command.
+
+## Imports
+
+``` pip install pyautogui ```
+``` pip install keyboard ```
+``` pip install pynput.mouse ```
