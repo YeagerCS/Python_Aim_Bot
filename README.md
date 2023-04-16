@@ -14,6 +14,6 @@ If you want to try it at another website, instead of https://aim400kg.com/game/1
 
 ## Imports
 
-``` pip install pyautogui ```
-``` pip install keyboard ```
+``` pip install pyautogui ``` \n
+``` pip install keyboard ``` \n
 ``` pip install pynput.mouse ```
