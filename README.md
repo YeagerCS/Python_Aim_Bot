@@ -2,7 +2,7 @@
 
 
 ## What is it
-The script.py script, is a script that works for the website https://aim400kg.com/game/1. It works for the specified game and what it does it clicks the targets that pop up, which you'd normally have to click. It is really fast in clicking the targets and despite the accuracy not being 100%, the received scores still are beyond human capabilities.
+The script.py script, is a script that works for the website https://aim400kg.com/game/1. It functions for the given game and clicks the targets that appear, just as you would normally do. Although the accuracy isn't 100%, it clicks targets quite quickly, and the ratings it receives are still much higher than what humans can achieve.
 
 ## How does it work
 It works by taking a screenshot of the region in which your game is open and then locating the rgb of the target. Once it finds the correct color, it will move the mouse at that position and click it. For the specified website, it was best to check the range of the red color and clicking when the red color is inbetween the range of 93 and 99. To improve accuracy, the red value 97 is not included, because dot that pops up when missing the targets has exactly the value 97 on red.
